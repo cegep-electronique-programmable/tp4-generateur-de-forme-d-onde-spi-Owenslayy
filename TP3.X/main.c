@@ -136,8 +136,8 @@ void sinus_60(void) {
 void out_dig(uint8_t x)
 {
 	IO_RA5_SetLow();   // selection du potentiometre
-	SPI_ExchangeByte(0x11);  // ecriture, pot. 0
-	SPI_ExchangeByte(x);
-	IO_RA5_SetHigh();
+//	SPI_ExchangeByte(0x11);  // ecriture, pot. 0
+//	SPI_ExchangeByte(x);
+//	IO_RA5_SetHigh();
 	//__delay_ms(1);
 }
