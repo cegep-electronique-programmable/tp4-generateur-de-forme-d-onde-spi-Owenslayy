@@ -1,9 +1,10 @@
 /**
  * Auteur 
  * Maxime Champagne
+ //salut
  * 3 mars 2022
  * 
- * Modifié par
+ * ModifiÃ© par
  *
  *
  * SPI/main.c
@@ -64,7 +65,7 @@ void main(void)
     {
         
         
-//        //Code de test pour valider le fonctionnement du potentiomètre
+//        //Code de test pour valider le fonctionnement du potentiomÃ¨tre
 //        {
 //            printf("\n\rEntrer une valeur entre 0 et 255, suivie de [Enter]");
 //            valeur = 0;
@@ -92,7 +93,7 @@ void main(void)
         
         
         
-        //Code de test pour générer une onde sinusoidale
+        //Code de test pour gÃ©nÃ©rer une onde sinusoidale
         sinus_60();
         
     }
@@ -136,8 +137,8 @@ void sinus_60(void) {
 void out_dig(uint8_t x)
 {
 	IO_RA5_SetLow();   // selection du potentiometre
-	SPI_ExchangeByte(0x11);  // ecriture, pot. 0
-	SPI_ExchangeByte(x);
-	IO_RA5_SetHigh();
+//	SPI_ExchangeByte(0x11);  // ecriture, pot. 0
+//	SPI_ExchangeByte(x);
+//	IO_RA5_SetHigh();
 	//__delay_ms(1);
 }
