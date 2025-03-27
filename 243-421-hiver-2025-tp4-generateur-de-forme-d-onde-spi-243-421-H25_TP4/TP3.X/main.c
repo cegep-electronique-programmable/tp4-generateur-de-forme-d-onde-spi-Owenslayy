@@ -2,8 +2,8 @@
  * Auteur 
  * Maxime Champagne
  * 3 mars 2022
- * salut2334s
- * Modifié par
+ * salut2334sfg
+ * ModifiÃ© par
  *owenslay le 4 mars 9;44
  *
  * SPI/main.c
@@ -93,7 +93,7 @@ void main(void)
             
         
         
-//        //Code de test pour valider le fonctionnement du potentiomètre
+//        //Code de test pour valider le fonctionnement du potentiomÃ¨tre
 //        {
 //            printf("\n\rEntrer une valeur entre 0 et 255, suivie de [Enter]");
 //            valeur = 0;
@@ -121,7 +121,7 @@ void main(void)
         
         
         
-        //Code de test pour générer une onde sinusoidale
+        //Code de test pour gÃ©nÃ©rer une onde sinusoidale
         
          
         
